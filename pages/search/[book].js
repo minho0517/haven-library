@@ -27,7 +27,6 @@ export default function Search() {
                 const isbn = book.ISBN?.split(' '); 
                 const detailData = isbn ?  await (await axios.get(`/api/book/info/detail/${isbn[isbn.length - 1]}`)).data : "";
                 const response = await (await axios.get(`/api/book/check/borrowing/${book['등록번호']}`)).data;
-                console.log(detailData)
                 const commonData = {
                     id : book['등록번호'],
                     title : detailData ? detailData.title : book['제목'],
