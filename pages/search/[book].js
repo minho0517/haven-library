@@ -1,11 +1,10 @@
 import styles from  "@/styles/search.module.css";
-import { faEllipsis } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import axios from "axios";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
-export default function search() {
+export default function Search() {
 
     const router = useRouter()
     const query = router.query.book;
