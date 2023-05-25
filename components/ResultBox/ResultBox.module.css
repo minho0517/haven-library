@@ -1,0 +1,119 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.text_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_text {
+    font-size: 30px;
+    color: #222;
+}
+.impact_main_text {
+    color: #A84448;
+}
+
+.borrowlist {
+    margin: 30px 0;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: scroll;
+    width: 90%;
+}
+.borrowlist_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.book {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-bottom: solid 1px #efefef;
+}
+.book:first-child {
+    border-top: solid 1px #efefef;
+}
+.book_num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+}
+.num {
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+}
+.book_content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: left;
+}
+.main_content {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    padding: 0 10px;
+}
+.book_title {
+    font-size: 16px;
+    color: #222;
+}
+.sub_content {
+    width: auto;
+    display: flex;
+    align-items: center; 
+    justify-content: left;   
+}
+.book_info:nth-child(1) {
+    width: 150px;
+}
+.book_info:nth-child(2) {
+    width: auto;
+}
+.book_info {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.book_info > span {
+    white-space: nowrap;
+}
+.info_text {
+    color: #999;
+    margin-right: 10px;
+}
+
+.homeBtn {
+    text-decoration: none;
+    background-color: #A84448;
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 18px 70px;
+    transition: all .25s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s;
+}
+.homeBtn:hover {
+    background-color: #8e3437;
+    color: white;
+}

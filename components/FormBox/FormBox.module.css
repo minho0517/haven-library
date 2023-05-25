@@ -1,0 +1,132 @@
+.wrapper {
+    width: 100%;
+    border: solid 1px #efefef;
+}
+.submitPage {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.state_text {
+    font-size: 32px;
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 8px;
+}
+.state_text > strong {
+    color: #E76161;
+}
+.more_text {
+    font-size: 17px;
+    font-weight: 400;
+    color: #555;
+}
+.link_text {
+    text-decoration: none;
+    background-color: #E76161;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 15px 60px;
+    transition: all .25s;
+    transition: all .3s;
+    margin-top: 50px;
+}
+.link_text:hover {
+    background-color: #e76161e0;
+    color: white;
+}
+.form {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px 0 15px 0;
+}
+.item_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+.title_board {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+.require_ico {
+    margin: 5px 7px 0 0;
+    float: left;
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #ff2020;
+}
+.notRequire_ico {
+    margin: 5px 7px 0 0;
+    float: left;
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: transparent;
+}
+.item_input {
+    display: flex;
+    width: 100%;
+    max-width: 550px;
+    padding: 5px 18px 3px 14px;
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+}
+.inputBox {
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    height: 40px;
+    transition: all .25s;
+}
+.inputBox:focus, .textareaBox:focus {
+    outline: none;
+}
+.textareaBox {
+    height: 200px;
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    padding: 10px 0;
+    resize: none;
+}
+
+.button_group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+.button_group > button {
+    width: 250px;
+    height: 60px;
+    border: none;
+    font-weight: 400;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.cancelBtn {
+    background-color: #F0F0F0;
+    margin-right: 30px;
+}
+.submitBtn {
+    background-color: #E76161;
+    color: #fff;
+}
